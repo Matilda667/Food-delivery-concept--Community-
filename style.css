@@ -1,0 +1,64 @@
+/* ================ Сбросс стилей ================ */
+
+* {
+    padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/* ================ Общие стили ================ */
+
+html, 
+body {
+    font-family: 'Martel Sans', 'Poppins', 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    min-width: 375px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ================ Стили для Хедера ================ */
+.header {
+    width: 1440px;
+    height: 72px;
+    background-color: white;
+    padding: 24px 0;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+}
+
+.main-title {
+font-weight: 300;
+font-size: 58px;
+line-height: 110%;
+letter-spacing: 0.05em;
+margin-bottom: 88px;
+}
+
+.main-button{
+border: 2px solid #FFE145;
+border-radius: 4px;
+padding: 16px 24px;
+width: 118px;
+height: 72px;  
+}
