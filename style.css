@@ -60,5 +60,8 @@ border: 2px solid #FFE145;
 border-radius: 4px;
 padding: 16px 24px;
 width: 118px;
-height: 72px;  
+height: 72px; 
+font-weight: 400;
+font-size: 12px;
+line-height: 133%; 
 }
