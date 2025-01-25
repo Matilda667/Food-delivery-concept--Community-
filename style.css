@@ -43,8 +43,9 @@ a {
 /* ================ Стили для section 1 ================ */
 .main-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
     min-height: 800px;
 }
 
@@ -68,13 +69,15 @@ line-height: 133%;
 color: #3F4255;
 text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
-.main-img {
-    display: flex; 
+.main-img.plate-img {
+    align-self: flex-end;
     max-width: 656px;
     width: 100%;
 }
+
 .main-info {
-   
+align-items:stretch;	  
+width: 100%;
 width: 536px;
 height: 288px;
  }
